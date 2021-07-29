@@ -1,0 +1,394 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width:260px;
+    height: 260px;
+}
+
+.header{
+    background-color: rgb(39, 40, 83);
+    width: 100%;
+    height: 120px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.container{
+    width :100%;
+    height:613px;
+    background-color: #9e9da1ca;
+    background-size: cover;
+    padding-top: 20px;
+    display: none;
+    padding-bottom: 100px;
+}
+
+.container2{
+    display: none;
+}
+
+.form{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(78, 78, 78); 
+    background-color:  rgb(39, 40, 83);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#word{
+    width: 60%;
+    margin: 0 auto;
+    height: 70%;
+    font-size: 55px;
+    padding-top:15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(87, 85, 85, 0.171);
+}
+
+
+#start{
+    width: 40%;
+    height: 590px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+#hangman{
+    width: 100%;
+    height: 490px; 
+}
+
+#go{
+    width: 200px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(39, 40, 83);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+#p{
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    padding-right: 200px;
+}
+
+#go:hover{
+    background-color: rgb(55, 56, 107);
+}
+
+#pendu{
+    width:260px;
+    height: 260px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#statue{
+    text-align: center;
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    position:relative;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px 2px rgba(70, 69, 69, 0.651);
+}
+
+#finish{
+    width: 70%;
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+    margin-top: 150px;
+}
+
+#after{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#next, #quite{
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(39, 40, 83);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(70, 69, 69, 0.651);
+}
+
+#alfa{
+    width: 60%;
+    margin: 0 auto;
+    height: 200px;;
+    font-size: 55px;
+    margin-top:15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0%;
+} 
+
+
+@media (max-width: 1300px){
+
+    #alfa{
+        width: 80%;
+    }
+    #word{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1100px){
+
+    #start{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px){
+
+    #word{
+        width: 80%;  
+    }
+    #alfa{
+        width: 80%; 
+    }
+
+}
+
+@media (max-width: 900px){
+
+    #start{
+        width: 70%;
+        height: 450px;
+    }
+}
+
+@media(max-width: 750px){
+
+    #word{
+        width: 90%;
+    }
+    #alfa{
+        width: 90%; 
+    }
+    #finish{
+        font-size: 47px;
+    }
+   
+}
+
+@media(max-width: 700px){
+
+    #word{
+        width: 95%;
+        letter-spacing: 5px;
+    }
+    #alfa{
+        width: 95%; 
+    }
+    #p{
+        padding-right: 150px;
+    }
+    #statue{
+        font-size: 27px;
+        margin-top: -190px;
+    }
+    #start{
+        height: 450px;
+    }
+    #hangman{
+        height: 400px;
+    }
+   
+}
+
+@media (max-width: 540px){
+
+    #word{
+        font-size: 45px;
+        letter-spacing: 5px;
+        height: 60px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .button{
+        width: 35px;
+        height: 40px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .header{
+        height: 90px;
+    }
+    #pendu{
+        width:200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    img{
+        width:200px;
+        height: 200px;
+    }
+    #start{
+        width: 90%;
+        height: 450px;
+    }
+    #statue{
+        font-size: 27px;
+    }
+    #next, #quite{
+        font-size: 20px;
+    }
+    #finish{
+        font-size: 32px;
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 450px){
+
+    #word{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    #alfa{
+        width: 100%;
+    }
+    #go{
+        width: 150px;
+    }
+    #start{
+        height: 450px;
+    }
+    #hangman{
+        height: 380px;
+    }
+    #p{
+        padding-right: 150px;
+        padding-top: 40px;
+    }
+    #statue{
+        font-size: 25px;
+    }
+    .button{
+        width: 35px;
+        height: 40px;
+    }
+    .container2{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 370px){
+
+    #word{
+        width: 95%;
+        letter-spacing: 0px;
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+    #alfa{
+        width: 100%;
+    }
+    #start{
+        width: 95%;
+        height: 400px;
+    }
+    #hangman{
+        height: 380px;
+    }
+    #finish{
+        font-size: 25px;
+    }
+    #pendu{
+        width:180px;
+        height: 180px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    img{
+        width:180px;
+        height: 180px;
+    }
+    .container2{
+        margin-top: 40px;
+    }
+    #statue{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .button{
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #go{
+        width: 150px;
+        height: 35px;
+        font-size: 23px;
+    }
+    #p{
+        padding-right: 110px;
+    }
+    #statue{
+        font-size: 20px;
+    }
+    #next, #quite{
+        font-size: 17px;
+    }
+}
+
